@@ -30,7 +30,7 @@ for line in tempdot:
 		if moreOrLess > 0:
 			chMoreOrLess = '-'
 		#print chMoreOrLess
-		line = line.replace(";", " [label=\""+chMoreOrLess+"\"];") #, [transition=\""+chMoreOrLess+"\"];
+		line = line.replace(";", " [label=\""+chMoreOrLess+"\"];")
 	fulldot.write(line)
 tempdot.close()
 fulldot.close()
